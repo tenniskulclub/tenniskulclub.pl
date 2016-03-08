@@ -46,7 +46,7 @@ File.open("./_includes/sections/gallery_content.html", 'w') {|f|
         f.write("
         <div class=\"span3\">
           <a href=\"assets/img/gallery/big/#{photo}\">
-            <img class=\"lazy\" data-original=\"assets/img/gallery/small/#{photo}\" width=\"240\" height=\"180\">
+            <img src=\"assets/img/gallery/small/#{photo}\" width=\"240\" height=\"180\">
           </a>
         </div>")
       end

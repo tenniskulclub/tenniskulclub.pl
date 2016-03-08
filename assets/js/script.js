@@ -64,7 +64,6 @@ jQuery(function($){
 	var scrollTimeout;
 
 	$('.carousel-indicators li').click(function(){
-		console.log('test');
 		$this = $(this);
 		$('#lightgallery').carousel($this.data('slide-to'));
 		$('.carousel-indicators li').removeClass('active');
