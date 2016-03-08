@@ -1,5 +1,5 @@
 _site
-gallery
+/gallery
 old
 .sass-cache
 .jekyll-metadata
