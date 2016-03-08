@@ -1,0 +1,17 @@
+<nav class="navbar navbar-fixed-top" id="nav">
+  <div class="navbar-inner">
+    <div class="container">
+      <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="brand" href="index.html">Tennis Kul Club</a>       
+
+      <div class="nav-collapse collapse">
+        <ul class="nav pull-right">
+          {% for section in site.data.sections %}
+            <li class="{{section.class}}">
+              <a href="#{{section.id}}">{{section.name}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,72 @@
+<section class="section contact style-1 style-solid-1" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h1>KONTAKT</h1>
+      <p>Masz pytania, sugestie - napisz do nas! Chętnie odpowiemy.</p>
+    </div>
+
+    <div class="section-content row-fluid">
+      <div class="contact">
+        <div class="row-fluid">
+          <div class="info span6">
+            <div class="row-fluid">
+              <address class="adr span6">
+                <em class="icon-map-marker"></em>Piotra Skargi 5, teren PWSZ<br />
+                Głogów, 67-200
+              </address>
+
+              <address class="span6">
+                <span class="phone"><em class="icon-user"></em><a href="tel:+48691937939">(0048) 691 937 939</a></span><br />
+                <span class="phone"><em class="icon-user"></em><a href="tel:+48603626144">(0048) 603 626 144</a></span><br />
+                <a class="mail" href="mailto:kontakt@tenniskulclub.pl"><em class="icon-envelope"></em>kontakt@tenniskulclub.pl</a>
+              </address>
+            </div>
+          </div>
+
+          <div class="contact-form span6">
+            <form action="//formspree.io/kontakt@tenniskulclub.pl" method="POST">
+              <div class="controls controls-row">
+                <input class="span6" name="name" placeholder="Imię*" size="40" type="text" value="" />
+                <input class="span6" name="_replyto" placeholder="Email*" size="40" type="email" value="" />
+                <input type="text" name="_gotcha" style="display:none" />
+              </div>
+
+              <p>
+              <textarea cols="40" name="ymessage" placeholder="Wiadomość*" rows="4"></textarea><br />
+              <input class="btn btn-primary" type="submit" value="Wyślij" /></p>
+            </form>
+          </div>
+        </div>
+
+        <div class="row-fluid map">
+          <iframe width="100%" height="390" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPPH4_iyfT1FhffYBimvZ9nHcb8l5w-Hg&q=place_id:ChIJZwItuhT0BUcRSRPYhmVsp4w" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for modal in site.data.modals %}
+  <div class="modal hide fade" id="modal-{{modal.name}}" tabindex="-1">
+    <div class="modal-inner">
+      <button class="close" data-dismiss="modal" type="button">x</button>
+
+      <div class="modal-body">
+        <div id="{{modal.name}}Carousel" class="carousel slide">
+          <div class="carousel-inner">
+            {% for image in modal.images %}
+              <div class="item {{image.class}}">
+                <p class="modal-image"><img src="" data-src="{{image.image}}" /></p>
+              </div>
+            {% endfor %}
+          </div>
+          <a class="carousel-control left" href="#{{modal.name}}Carousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#{{modal.name}}Carousel" data-slide="next">&rsaquo;</a>
+        </div>
+
+        <h3 class="modal-title">{{modal.title}}</h3>
+        {% include modals/{{modal.name}}.html %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

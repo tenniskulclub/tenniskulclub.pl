@@ -1,0 +1,13 @@
+- name: Home
+  class: active
+  id: Home
+- name: O nas
+  id: introducing
+- name: Cennik
+  id: pricing
+- name: Trenerzy
+  id: team
+- name: Galeria
+  id: portfolio
+- name: Kontakt
+  id: contact

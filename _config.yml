@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Tennis Kul Club
+site_name: Tennis Kul Club
+email: kontakt@tenniskulclub.pl
+description: > # this means to ignore newlines until "baseurl:"
+  Tennis Kul Club - Nowoczesny całoroczny obiekt tenisowy. 
+  Dwie hale łukowe o konstrukcji drewnianej przykrywające dwa korty o nawierzchni ze sztucznej trawy najwyższej jakości - atest ITF.
+  Korty. Nauka gry w tenisa. Obozy. Turnieje. Serwis tenisowy i narciarsko - snowboardowy.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tenniskulclub.pl" # the base hostname & protocol for your site
+twitter_username: tenniskulclub
+github_username:  tenniskulclub
+
+# Build settings
+markdown: kramdown
+
+exclude: ['gallery', 'old', 'generate_gallery.rb']

@@ -1,0 +1,63 @@
+- name: court
+  title: Korty
+  images: 
+    - image: assets/img/court/slide3.jpg
+      class: active
+    - image: assets/img/court/slide13.jpg
+    - image: assets/img/court/slide14.jpg
+    - image: assets/img/court/slide2.jpg
+    - image: assets/img/court/slide5.jpg
+    - image: assets/img/court/slide6.jpg
+    - image: assets/img/court/slide10.jpg
+    - image: assets/img/court/slide11.jpg
+    - image: assets/img/court/slide12.jpg
+- name: kids
+  title: Dzieci
+  images:
+    - image: assets/img/kids/slide1.jpg
+      class: active
+    - image: assets/img/kids/slide2.jpg
+    - image: assets/img/kids/slide5.jpg
+    - image: assets/img/kids/slide3.jpg
+    - image: assets/img/kids/slide4.jpg
+- name: youth
+  title: Młodzież
+  images:
+    - image: assets/img/youth/slide1.jpg
+      class: active
+    - image: assets/img/youth/slide2.jpg
+    - image: assets/img/youth/slide3.jpg
+    - image: assets/img/youth/slide4.jpg
+- name: adult
+  title: Dorośli
+  images:
+    - image: assets/img/adult/slide1.jpg
+      class: active
+- name: players
+  title: Trening zawodniczy
+  images:
+    - image: assets/img/players/slide1.jpg
+      class: active
+    - image: assets/img/players/slide2.jpg
+- name: camps
+  title: Obozy
+  images:
+    - image: assets/img/camps/slide1.jpg
+      class: active
+    - image: assets/img/camps/slide2.jpg
+    - image: assets/img/camps/slide4.jpg
+    - image: assets/img/camps/slide3.jpg
+    - image: assets/img/camps/slide5.jpg
+    - image: assets/img/camps/slide6.jpg
+- name: tournaments
+  title: Turnieje
+  images:
+    - image: assets/img/tournaments/slide1.jpg
+      class: active
+    - image: assets/img/tournaments/slide2.jpg
+- name: service
+  title: Serwis
+  images:
+    - image: assets/img/service/slide1.jpg
+      class: active
+    - image: assets/img/service/slide1.jpg

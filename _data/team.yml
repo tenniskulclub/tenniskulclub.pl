@@ -1,0 +1,12 @@
+- name: Maciej Kulhawik
+  image: assets/img/maciej.jpg
+  meta: Trener miedzynarodowy PTR
+  desc: Absolwent AWF Wroclaw z przygotowaniem pedagogicznym o specjalności trenera tenisa ziemnego II klasy. Trener miedzynarodowy Professional Tennis Registry. Menadzer sportu. Wieloletnie doświadczenie trenerskie oraz zawodnicze. Sędzia tenisa ziemnego oraz instruktor narciarstwa zjazdowego.
+- name: Andrzej Kulhawik
+  image: assets/img/andrzej2.jpg
+  meta: Trener miedzynarodowy PTR
+  desc: Trener tenisa ziemnego II klasy z przygotowaniem pedagogicznym. Trener miedzynarodowy Professional Tennis Registry. Wieloletnie doświadczenie trenerskie. Trener wielu czołowych Głogowskich zawodników. Instruktor narciarstwa.
+- name: Anna Białek
+  image: assets/img/anna2.jpg
+  meta: Instruktor tenisa ziemnego
+  desc: Instruktor tenisa ziemnego. Wychowanka GTT Głogów. Prowadząca program Tenis 10 w Tennis Kul Club. Odpowiada za przygotowanie fizyczne naszych zawodników.

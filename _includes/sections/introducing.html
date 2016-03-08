@@ -1,0 +1,43 @@
+    <section class="section introducing" id="introducing">
+      <div class="container">
+        <div class="portfolio post-1 post type-post status-publish format-standard hentry category-uncategorized">
+          <div class="row-fluid">
+            <ul class="thumbnails">
+
+              {% for item in site.data.introducing %}
+                <li class="span3 block">
+                  <div class="thumbnail">
+                    <div class="screenshot">
+                      <a class="show-popup" data-toggle="modal" href="#modal-{{item.modal}}">
+                        <img alt="{{item.name}}" src="assets/img/intro/medium_{{item.modal}}.jpg" data-src-small="{{item.image}}"/>
+                      </a>
+                    </div>
+
+                    <div class="caption">
+                      <h2 class="section-content-title"><a class="show-popup" data-toggle="modal" href="#modal-{{item.modal}}">{{item.name}}</a></h2>
+                    </div>
+                  </div>
+                </li>
+              {% endfor %}
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-content row-fluid">
+          <div class="clients">
+            <div class="row-fluid">
+              <ul class="thumbnails">
+
+                {% for partner in site.data.partners %}
+                  <li class="span3 client">
+                    <a class="thumbnail" href="#"><img class="lazy" data-original="{{partner.logo}}" alt="{{partner.name}}" /></a>
+                  </li>
+                {% endfor %}
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
