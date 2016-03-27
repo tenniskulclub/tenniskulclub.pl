@@ -1,13 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
-  background: url(../assets/img/header-bg.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #333;
   font-weight: lighter;
+}
+
+body.index {
+  background: url(../assets/img/header-bg.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
 }
 
 a {
@@ -98,6 +102,8 @@ input[type="color"],
   background: #3a9cee !important;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2) inset;
 }
+
+
 
 .section {
   background: #fff;
@@ -228,6 +234,33 @@ input[type="color"],
 
 .landing header {
   background: none;
+}
+
+article.post {
+  padding: 60px 0;
+
+  .image {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .post-meta {
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+  p, ol, ul {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  .btn-center {
+    text-align: center;
+
+    a {
+      background-color: #c6cc00;
+    }
+  }
 }
 
 section.header {

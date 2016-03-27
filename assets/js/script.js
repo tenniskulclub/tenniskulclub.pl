@@ -92,9 +92,16 @@ jQuery(function($){
 	// Scroll to section onclick to menu
 	
 	$('#nav .nav a').click(function(e){
-		e.preventDefault();
 		var des = $(this).attr('href');
-		goToSectionID(des);
+		console.log(des);
+		if (des != '/blog') {
+			e.preventDefault();
+			if(window.location.pathname == "/blog") {
+				window.location = './' + des
+			} else {
+				goToSectionID(des);
+			}
+		}
 	})
 
 	//Fix dropdown bootstrap
@@ -119,7 +126,6 @@ jQuery(function($){
 		});
 	}
 
-
 	//Trigger change url on scroll
 	$('.nav-collapse').on('activate',function(e){
 		if(onanimate) return;
@@ -128,11 +134,10 @@ jQuery(function($){
 		    history.pushState(null, null, $('.nav-collapse .active a').attr('href'));
 		}
 		else {
-			//var currenttop = $(window).scrollTop();
-		  //  location.hash = $('.nav-collapse .active a').attr('href');
-		  //$(window).scrollTop(currenttop);
-		}
-		
+			var currenttop = $(window).scrollTop();
+		   location.hash = $('.nav-collapse .active a').attr('href');
+		  $(window).scrollTop(currenttop);
+		}		
 	})
 
 	// Carousel Slider spy
