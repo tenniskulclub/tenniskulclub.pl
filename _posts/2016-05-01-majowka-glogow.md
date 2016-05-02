@@ -7,10 +7,19 @@ tags:
 author: Maciej
 type: blog
 images:
-- /assets/img/blog/2016-03-13_01.jpg
-- /assets/img/blog/2016-03-13_02.jpg
-- /assets/img/blog/2016-03-13_03.jpg
-
+- /assets/img/blog/2016-05-01_01.jpg
+- /assets/img/blog/2016-05-01_02.jpg
+- /assets/img/blog/2016-05-01_03.jpg
+- /assets/img/blog/2016-05-01_04.jpg
+- /assets/img/blog/2016-05-01_05.jpg
+- /assets/img/blog/2016-05-01_06.jpg
+- /assets/img/blog/2016-05-01_07.jpg
+- /assets/img/blog/2016-05-01_08.jpg
+- /assets/img/blog/2016-05-01_09.jpg
+- /assets/img/blog/2016-05-01_10.jpg
+- /assets/img/blog/2016-05-01_11.jpg
+- /assets/img/blog/2016-05-01_12.jpg
+- /assets/img/blog/2016-05-01_13.jpg
 ---
 
 <div class="image">
