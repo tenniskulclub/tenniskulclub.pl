@@ -17,6 +17,7 @@ images:
 - /assets/img/blog/20.jpg
 - /assets/img/blog/22.jpg
 - /assets/img/blog/30.jpg
+- /assets/img/blog/dzeck.jpg
 
 
 ---
@@ -75,9 +76,10 @@ Wyniki w poszczególnych grupach:
         <div class="span3"><a href="/assets/img/blog/12.jpg"> <img src="/assets/img/blog/12.jpg" /></a></div>
         <div class="span3"><a href="/assets/img/blog/15.jpg"> <img src="/assets/img/blog/15.jpg" /></a></div>
         <div class="span3"><a href="/assets/img/blog/19.jpg"> <img src="/assets/img/blog/19.jpg" /></a></div>
-        <div class="span3"><a href="/assets/img/blog/WP_20160522_040.jpg"> <img src="/assets/img/blog/WP_20160522_040.jpg" /></a></div>
+        <div class="span3"><a href="/assets/img/blog/19.jpg"> <img src="/assets/img/blog/dzeck.jpg" /></a></div>
       </div>
       <div class="row">
+        <div class="span3"><a href="/assets/img/blog/WP_20160522_040.jpg"> <img src="/assets/img/blog/WP_20160522_040.jpg" /></a></div>
         <div class="span3"><a href="/assets/img/blog/16.jpg"> <img src="/assets/img/blog/16.jpg" /></a></div>
         <div class="span3"><a href="/assets/img/blog/20.jpg"> <img src="/assets/img/blog/20.jpg" /></a></div>
         <div class="span3"><a href="/assets/img/blog/22.jpg"> <img src="/assets/img/blog/22.jpg" /></a></div>

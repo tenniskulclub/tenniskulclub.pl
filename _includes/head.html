@@ -64,7 +64,6 @@
     <meta content="{{ site.url }}" property="article:author">
   {% endif %}
   {% if page.images %}
-    <meta content="{{ site.url }}/assets/img/blog/{{ page.image }}" property="og:image">
     {% for image in page.images %}
       <meta content="{{ site.url }}{{ image }}" property="og:image">
     {% endfor %}
