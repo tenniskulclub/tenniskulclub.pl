@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dzień Dziecka z rakietą
+description: W niedzielę 22 maja, na kortach miejskich przy ulicy Wita Stwosza  zakończył się turniej tenisa ziemnego 'Dzień Dziecka z Rakietą' do lat 6, 8 i 10, dziewczęta i  chłopców.
 tags:
 - Turniej
 author: Maciej
@@ -24,7 +25,7 @@ images:
 
 <div class="image"><img src="/assets/img/blog/16.jpg" /></div>
 
-W niedzielę 22 maja, na kortach miejskich przy ulicy Wita Stwosza  zakończył się turniej tenisa ziemnego „Dzień Dziecka z Rakietą ” do lat 6, 8 i 10, dziewczęta i  chłopców.
+W niedzielę 22 maja, na kortach miejskich przy ulicy Wita Stwosza  zakończył się turniej tenisa ziemnego 'Dzień Dziecka z Rakietą' do lat 6, 8 i 10, dziewczęta i  chłopców.
 
 Wyniki w poszczególnych grupach:
 

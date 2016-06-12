@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Gościliśmy zawodników ZSS "Sprawni - Razem"
+title: Gościliśmy zawodników ZSS 'Sprawni - Razem'
+description: Od piątku do niedzieli, trenowali, uczestniczyli w sprawdzianach sprawnościowych a na koniec zagrali turniej 'każdy z każdym'. Na dworcu PKP stwierdzili 'szkoda że, tak krótko trwało'. Do następnego spotkania !
 tags:
 - Turniej
 - Mini
@@ -19,7 +20,7 @@ images:
 
 <div class="image"><img src="/assets/img/blog/20160513_153927.jpg" /></div>
 
-Od piątku do niedzieli, trenowali, uczestniczyli w sprawdzianach sprawnościowych a na koniec zagrali turniej "każdy z każdym". Na dworcu PKP stwierdzili "szkoda że, tak krótko trwało". Do następnego spotkania !
+Od piątku do niedzieli, trenowali, uczestniczyli w sprawdzianach sprawnościowych a na koniec zagrali turniej 'każdy z każdym'. Na dworcu PKP stwierdzili 'szkoda że, tak krótko trwało'. Do następnego spotkania !
 
 <div class="image"><img src="/assets/img/blog/20160513_153952.jpg" /></div>
 <div class="image"><img src="/assets/img/blog/20160515_110142.jpg" /></div>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nadała Michał najlepszy w Lubinie
+description: W sobotę 4 czerwca Michał Nadała  GTT zwyciężył w kategorii do lat 8 w turnieju zorganizowanym z okazji dnia dziecka w Lubinie. 
 tags:
 - Turniej
 author: Andrzej
