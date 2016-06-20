@@ -976,3 +976,35 @@ body[class*="landing"] #colophon a:focus,
   padding: 8px 25px;
   font-size: 18px;
 }
+
+.post-content img {
+  max-width: 100%;
+}
+
+.post-content p img {
+  max-width: 520px;
+  vertical-align: top;
+}
+
+.post-content p:first-child img {
+  max-width: 100%;
+}
+
+.post-content p  {
+  img:nth-child(even) {
+    @media (min-width: 1200px) {
+      margin-left: 5px;
+      margin-bottom: 10px;
+    }
+  }
+
+  img {
+    @media (max-width: 1200px) {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.container {
+  margin-bottom: 60px;
+}
