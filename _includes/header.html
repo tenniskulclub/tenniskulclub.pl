@@ -1,15 +1,26 @@
 <nav class="navbar navbar-fixed-top" id="nav">
   <div class="navbar-inner">
     <div class="container">
-      <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="brand" href="index.html">Tennis Kul Club</a>       
+      <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="brand" href="/">Tennis Kul Club</a>
 
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
           {% for section in site.data.sections %}
-            <li class="{{section.class}}">
-              <a href="#{{section.id}}">{{section.name}}</a>
+            <li>
+              {% if page.type contains 'blog' %}
+                <a href="{{site.url}}/#{{section.id}}">{{section.name}}</a>
+              {% else %}
+                <a href="#{{section.id}}">{{section.name}}</a>
+              {% endif %}
             </li>
           {% endfor %}
+          
+          {% if page.url == '/blog.html' or page.type contains 'blog' %}
+            <li class="active"><a href="/blog">Blog</a></li>
+          {% else %}
+            <li><a href="/blog">Blog</a></li>
+          {% endif %}
+          </li>
         </ul>
       </div>
     </div>

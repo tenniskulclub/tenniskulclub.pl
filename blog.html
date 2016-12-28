@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="main">
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h1>Blog</h1>
+        <p>Aktualności z naszej działalności</p>
+      </div>
+
+      <div class="section-content row-fluid">
+
+        <ul class="media-list">
+          {% for post in site.posts %}
+            <li class="media">
+              <a href="{{ post.url }}">
+                <div class="media-body">
+                  <h4 class="media-heading">{{post.title}}</h4>
+                  <p>
+                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+                    {% for tag in post.tags %}
+                      <span class="label label-success">{{tag}}</span>
+                    {% endfor %}
+                  </p>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>

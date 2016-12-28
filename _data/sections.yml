@@ -1,6 +1,5 @@
 - name: Home
-  class: active
-  id: Home
+  id: home
 - name: O nas
   id: introducing
 - name: Cennik
